@@ -1,0 +1,13 @@
+<snippet>
+    <content>
+<![CDATA[
+#! /usr/bin/env perl
+use 5.010;
+use warnings;
+use strict;
+]]>
+    </content>
+    <tabTrigger>hd</tabTrigger>
+    <scope>source.perl</scope>
+    <description>program header</description>
+</snippet>

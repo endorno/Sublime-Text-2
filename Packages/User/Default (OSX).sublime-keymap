@@ -1,0 +1,45 @@
+[
+ {
+        "keys": [
+            "ctrl+d"
+        ],
+        "command": "right_delete"
+    },
+    {
+        "keys": [
+            "ctrl+e"
+        ],
+        "command": "move_to",
+        "args": {
+            "to": "hardeol"
+        }
+    },
+    {
+        "keys": [
+            "shift+super+x"
+        ],
+        "args": {
+            "action": "match_pair_outward"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.match_pair_outward"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "super+e"
+        ],
+        "args": {
+            "action": "expand_abbreviation"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.expand_abbreviation"
+            }
+        ]
+    }
+]

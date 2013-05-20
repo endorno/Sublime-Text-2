@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+print "${0}","\n";
+]]>
+    </content>
+    <tabTrigger>pr</tabTrigger>
+    <scope>source.perl</scope>
+    <description>print </description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+use Data::Dumper;
+]]>
+    </content>
+    <tabTrigger>db</tabTrigger>
+    <scope>source.perl</scope>
+    <description>debug utility</description>
+</snippet>
