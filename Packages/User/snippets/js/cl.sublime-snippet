@@ -4,7 +4,7 @@
 var ${1} = (function() {
     var ${1} = function(${0}) {
 
-    }
+    };
     ${1}.prototype = {
 
     };

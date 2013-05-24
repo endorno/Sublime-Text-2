@@ -13,9 +13,19 @@
 		""
 	],
 	"indent_to_bracket": true,
-	"perltidy_cmd": "/Users/teppei/.plenv/shims/perltidy",
+	"perltidy_cmd":
+	[
+		"/Users/teppei.fujisawa/perl5/perlbrew/perls/perl-5.16.3/bin/perltidy"
+	],
 	"perltidy_options":
 	[
+		"-bbt=1",
+		"-pt=2",
+		"-nbbc",
+		"-l=100",
+		"-ole=unix",
+		"-w",
+		"-se"
 	],
 	"soda_classic_tabs": true,
 	"soda_folder_icons": true,

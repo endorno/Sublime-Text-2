@@ -41,5 +41,10 @@
                 "key": "emmet_action_enabled.expand_abbreviation"
             }
         ]
+    },
+    {
+        "keys": ["command+shift+r"],
+        "command": "perl_tidy",
+        "context": [ { "key": "selector", "operator": "equal", "operand": "source.perl", "match_all": true } ]
     }
 ]
